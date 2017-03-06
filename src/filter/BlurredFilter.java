@@ -12,11 +12,11 @@ public class BlurredFilter extends AFilter {
 
 	@Override
 	public AFilter apply() {
-		Color avarageColor = ColorUtil.averageColorFromImage(image);
+		Color averageColor = ColorUtil.averageColorFromImage(image);
 		
 		for (int x = 0; x < super.image.getWidth(); x++) {
 			for (int y = 0; y < super.image.getHeight(); y++) {
-				super.image.setRGB(x,y, avarageColor.getRGB());
+				super.image.setRGB(x,y, averageColor.getRGB());
 			}
 		}
 		return this;
