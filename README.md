@@ -3,7 +3,7 @@
 ##Features.
 - Blurred filter
 - Font filter
-- Save your newly image
+- Save your newly created image
 
 ## How to run
 1. Import the Project in your IDE.
