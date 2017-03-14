@@ -1,6 +1,6 @@
 # ImageManipulation
 
-##Features.
+## Features
 - Blurred filter
 - Font filter
 - Save your newly created image
